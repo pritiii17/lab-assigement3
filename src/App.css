@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0b1a2a;
+  color: #fff;
+}
+
+.main {
+  width: 85%;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+.title span {
+  color: #00f5d4;
+  text-shadow: 0 0 10px #00f5d4;
+}
+
+/* CARD */
+.card {
+  border: 1px solid #1e3a5f;
+  padding: 15px;
+  margin-top: 20px;
+  background: #0f2235;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  color: #00f5d4;
+  font-size: 14px;
+}
+
+/* INPUT */
+.input-row {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #1e3a5f;
+  color: white;
+}
+
+.input-row button {
+  padding: 10px 15px;
+  background: transparent;
+  border: 1px solid #00f5d4;
+  color: #00f5d4;
+  cursor: pointer;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #1e3a5f;
+  margin-top: 20px;
+  background: #0f2235;
+}
+
+.stats div {
+  flex: 1;
+  padding: 15px;
+  border-right: 1px solid #1e3a5f;
+}
+
+.stats h2 {
+  color: #00f5d4;
+}
+
+/* TABLE */
+.table {
+  margin-top: 10px;
+}
+
+.table-head,
+.table-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px 0;
+  border-bottom: 1px solid #1e3a5f;
+}
+
+.table-head {
+  color: #00f5d4;
+}
+
+.table-row input {
+  width: 50px;
+  margin-right: 5px;
+  background: transparent;
+  border: 1px solid #1e3a5f;
+  color: white;
+}
+
+.table-row button {
+  background: transparent;
+  border: 1px solid #00f5d4;
+  color: #00f5d4;
+  padding: 5px;
+}
+
+/* STATUS */
+.pass {
+  color: #00ff88;
+}
+
+.fail {
+  color: red;
+}
